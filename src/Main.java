@@ -1,9 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        Calculo calc = new Calculo();
-        System.out.println(calc.soma(25, 25));
-        System.out.println(calc.subtracao(125, 25));
-        System.out.println(calc.multiplicacao(10, 50));
-        System.out.println(calc.resto(2, 3));
+
+        // Calculos
+        System.out.println(Calculo.soma(25, 25));
+        System.out.println(Calculo.subtracao(125, 25));
+        System.out.println(Calculo.multiplicacao(10, 50));
+        System.out.println(Calculo.resto(2, 3));
+
+        // Mensagens
+        Apresentacao.apresenta(8);
+        Apresentacao.apresenta(15);
+        Apresentacao.apresenta(21);
     }
 }
