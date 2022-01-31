@@ -11,5 +11,10 @@ public class Main {
         Apresentacao.apresenta(8);
         Apresentacao.apresenta(15);
         Apresentacao.apresenta(21);
+
+        // Empretismo
+        Banco.calcular(1000, Banco.getDuasParcelas());
+        Banco.calcular(1000, Banco.getTresParcelas());
+        Banco.calcular(1000, 5);
     }
 }
