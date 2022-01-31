@@ -1,20 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Calculos
-        System.out.println(Calculo.soma(25, 25));
-        System.out.println(Calculo.subtracao(125, 25));
-        System.out.println(Calculo.multiplicacao(10, 50));
-        System.out.println(Calculo.resto(2, 3));
+    Quadrilatero.area(6);
+    Quadrilatero.area(12D, 8D);
+    Quadrilatero.area(9D, 4D, 2D);
+    Quadrilatero.area(5F, 12F);
 
-        // Mensagens
-        Apresentacao.apresenta(8);
-        Apresentacao.apresenta(15);
-        Apresentacao.apresenta(21);
-
-        // Empretismo
-        Banco.calcular(1000, Banco.getDuasParcelas());
-        Banco.calcular(1000, Banco.getTresParcelas());
-        Banco.calcular(1000, 5);
     }
 }
